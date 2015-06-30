@@ -1,0 +1,43 @@
+{
+  "name": "truely",
+  "version": "0.0.2",
+  "description": "Tests for truthy values and returns a boolean value. Can take interger, string, or even object values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "truthy",
+    "test",
+    "boolean"
+  ],
+  "author": {
+    "name": "Anthony Mugendi"
+  },
+  "license": "BSD",
+  "_id": "truely@0.0.1",
+  "_shasum": "4e5dff08d01a2d5029a043ab996944dd4c103155",
+  "_from": "truely@*",
+  "_npmVersion": "2.4.1",
+  "_nodeVersion": "0.10.32",
+  "_npmUser": {
+    "name": "nguru",
+    "email": "ngurumugz@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "nguru",
+      "email": "ngurumugz@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "4e5dff08d01a2d5029a043ab996944dd4c103155",
+    "tarball": "http://registry.npmjs.org/truely/-/truely-0.0.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/truely/-/truely-0.0.1.tgz",
+  "readme": "ERROR: No README data found!",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}
