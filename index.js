@@ -6,7 +6,7 @@ module.exports=function(val){
 	if (!_.isUndefined(val)){
 
 		//is not zero
-		if(_.isNumber(parseFloat(val)) && parseFloat(val)!==0){
+		if(/^[0-9]+$/.test(val) && parseFloat(val)!==0){
 			return true;
 		}
 
@@ -21,7 +21,7 @@ module.exports=function(val){
 		}
 
 		//if not empty
-		if((_.isObject(val) || _.isArray(val)) && !_.isEmpty(val)){
+		if((_.isObject(val) || _.isArray(val)) && _.size(val)){
 			return true;
 		}
 
